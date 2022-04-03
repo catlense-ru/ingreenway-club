@@ -24,7 +24,7 @@ const Banner = () => {
     e.stopPropagation();
   }
 
-  const endDate = new Date('2022-04-16 23:40:00')
+  const endDate = new Date('2022-04-16 00:00:00')
   const days = endDate.getDate() 
   const hours = endDate.getHours()
   const minutes = endDate.getMinutes()
