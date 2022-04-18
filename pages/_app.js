@@ -1,8 +1,9 @@
+import App from 'next/app'
 import NextNprogress from 'nextjs-progressbar'
 import '../assets/fonts/fonts.css'
 import '../components/global.css'
 
-export default function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return(
     <>
       <NextNprogress 
@@ -15,3 +16,5 @@ export default function MyApp({ Component, pageProps }) {
     </>
   )
 }
+
+export default MyApp
